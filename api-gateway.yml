@@ -13,7 +13,7 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: custom-service
+        - id: prueba-service
           uri: lb://custom-service
           predicates:
-            - Path=/custom/**
+            - Path=/prueba/**
