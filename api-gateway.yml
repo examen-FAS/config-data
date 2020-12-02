@@ -14,6 +14,6 @@ spring:
           enabled: true
       routes:
         - id: prueba-service
-          uri: lb://custom-service
+          uri: lb://prueba-service
           predicates:
             - Path=/prueba/**
