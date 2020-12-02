@@ -23,7 +23,7 @@ logging:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://52.147.213.77:8099/eureka/
+      defaultZone: http://191.234.196.75:8099/eureka/
 management:
   endpoints:
     web:
